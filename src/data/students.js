@@ -1,0 +1,47 @@
+export const initialStudentsData = [
+  {
+    id: "STU-1001",
+    name: "Aarav Sharma",
+    email: "aarav.s@college.edu",
+    phone: "+94 77 123 4567",
+    course: "React",
+    batch: "2026-A",
+    gender: "Male",
+    age: 21,
+    address: "123 Galle Road, Colombo",
+    attendance: { present: 18, absent: 2, total: 20 },
+    status: "Active",
+    image:
+      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+  },
+  {
+    id: "STU-1002",
+    name: "Kavya Patel",
+    email: "kavya.p@college.edu",
+    phone: "+94 71 234 5678",
+    course: "JavaScript",
+    batch: "2026-B",
+    gender: "Female",
+    age: 22,
+    address: "45 Kandy Road, Gampaha",
+    attendance: { present: 15, absent: 5, total: 20 },
+    status: "Active",
+    image:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+  },
+  {
+    id: "STU-1003",
+    name: "Rohan Fernando",
+    email: "rohan.f@college.edu",
+    phone: "+94 76 345 6789",
+    course: "Next.js",
+    batch: "2026-A",
+    gender: "Male",
+    age: 23,
+    address: "88 Main Street, Negombo",
+    attendance: { present: 10, absent: 10, total: 20 },
+    status: "Inactive",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+  },
+];
