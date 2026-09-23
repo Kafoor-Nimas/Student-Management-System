@@ -1,8 +1,5 @@
-
 const StudentCard = () => {
-  return (
-    <div>StudentCard</div>
-  )
-}
+  return <div>StudentCard</div>;
+};
 
-export default StudentCard
+export default StudentCard;
