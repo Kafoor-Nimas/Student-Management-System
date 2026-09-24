@@ -4,6 +4,9 @@ import Dashboard from "./pages/Dashboard";
 import Students from "./pages/Students";
 import AddStudent from "./pages/AddStudent";
 import Attendance from "./pages/Attendance";
+import Reports from "./pages/Reports";
+import Profile from "./pages/Profile";
+import Settings from "./pages/Settings";
 
 const App = () => {
   return (
@@ -14,6 +17,9 @@ const App = () => {
           <Route path="/students" element={<Students />} />
           <Route path="/add-student" element={<AddStudent />} />
           <Route path="/attendance" element={<Attendance />} />
+          <Route path="/reports" element={<Reports />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/settings" element={<Settings />} />
         </Routes>
       </DashboardLayout>
     </BrowserRouter>
