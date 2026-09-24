@@ -34,7 +34,7 @@ export const StudentProvider = ({ children }) => {
   const updateStudent = (id, updatedData) => {
     setStudents((prev) =>
       prev.map((student) =>
-        student.id === id ? { ...student, updatedData } : student,
+        student.id === id ? { ...student, ...updatedData } : student,
       ),
     );
   };
