@@ -73,7 +73,7 @@ const Students = () => {
                 onChange={(e) =>
                   setEditingStudent({ ...editingStudent, name: e.target.value })
                 }
-                className="w-full p-2 border rounded-lg dark:bg-slate-700"
+                className={`w-full p-2 border rounded-lg ${theme === "dark" && "bg-slate-700"}`}
                 placeholder="Name"
                 required
               />
@@ -86,7 +86,7 @@ const Students = () => {
                     email: e.target.value,
                   })
                 }
-                className="w-full p-2 border rounded-lg dark:bg-slate-700"
+                className={`w-full p-2 border rounded-lg ${theme === "dark" && "bg-slate-700"}`}
                 placeholder="Email"
                 required
               />
@@ -99,7 +99,7 @@ const Students = () => {
                     phone: e.target.value,
                   })
                 }
-                className="w-full p-2 border rounded-lg dark:bg-slate-700"
+                className={`w-full p-2 border rounded-lg ${theme === "dark" && "bg-slate-700"}`}
                 placeholder="Phone"
                 required
               />
@@ -111,7 +111,7 @@ const Students = () => {
                     status: e.target.value,
                   })
                 }
-                className="w-full p-2 border rounded-lg dark:bg-slate-700"
+                className={`w-full p-2 border rounded-lg ${theme === "dark" && "bg-slate-700"}`}
               >
                 <option value="Active">Active</option>
                 <option value="Inactive">Inactive</option>
