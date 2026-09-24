@@ -6,8 +6,12 @@ const Attendance = () => {
 
   return (
     <div className="space-y-6">
-      <h1 className={`font-bold text-2xl ${theme === "dark" ? "text-white" : "text-slate-900"}`}>Attendance Logger</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <h1
+        className={`font-bold text-2xl ${theme === "dark" ? "text-white" : "text-slate-900"}`}
+      >
+        Attendance Logger
+      </h1>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {students.map((s) => (
           <AttendanceCard key={s.id} student={s} />
         ))}
