@@ -8,7 +8,7 @@ const Navbar = () => {
     <header
       className={`sticky top-0 z-40 border-b px-6 py-3.5 transition-colors ${theme === "dark" ? "bg-[#1E293B] border-slate-700 text-white" : "bg-white border-slate-200 text-slate-800"}`}
     >
-      <div className="max-w-[1500px] mx-auto flex items-center justify-between">
+      <div className="max-w-[1700px] mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link to={"/"} className="flex items-center gap-2.5">
           <GraduationCap

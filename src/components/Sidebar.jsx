@@ -47,7 +47,7 @@ const Sidebar = () => {
   ];
   return (
     <aside
-      className={`w-full md:w-64 p-5 border-r min-h-[calc(100vh-65px)] transition-colors ${theme === "dark" ? "bg-[#0F172A] border-slate-700 text-slate-300" : "bg-white border-slate-200 text-slate-600"}`}
+      className={`w-full md:w-54 p-5 border-r min-h-[calc(100vh-65px)] transition-colors ${theme === "dark" ? "bg-[#0F172A] border-slate-700 text-slate-300" : "bg-white border-slate-200 text-slate-600"}`}
     >
       <nav className="space-y-1.5 font-medium text-sm">
         {links.map((link) => (
